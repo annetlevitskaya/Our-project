@@ -37,9 +37,34 @@
             <div class="content__level">
                 <p class="content__level_text active__level">1</p>
             </div>
+            <div class="user-info" id="userInfo">
+                <div class="user-info__name user__name" id="userInfoName">[unknown]</div>
+                <div class="user-info__xp user__xp" id="userInfoXp">
+                    0
+                </div>
+            </div>
+            <div class="line__xp_box">
+                <div class="line__xp">100xp</div>
+            </div> 
         </div>
     </div>
 </div>
+
+<form class="experiance-form" id="experianceForm" action="">
+    <select name="user" id="user">
+        <option value="0">Dima</option>
+        <option value="1">Annet</option>
+    </select>
+    <input
+        name="xp"
+        type="number"
+        placeholder="Enter XP"
+        value="100"
+    >
+    <button>
+        Send
+    </button>
+</form>
 
     <script src="/js/main.js"></script>
 </body>
